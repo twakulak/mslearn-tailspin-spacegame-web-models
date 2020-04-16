@@ -31,9 +31,9 @@ steps:
     projects: '**/*.csproj'
     arguments: '--no-build --configuration $(buildConfiguration)'
     versioningScheme: byPrereleaseNumber
-    majorVersion: '1'
+    majorVersion: '2'
     minorVersion: '0'
-    patchVersion: '0'
+    patchVersion: '1'
  
 - task: NuGetCommand@2
   displayName: 'Publish NuGet package'
